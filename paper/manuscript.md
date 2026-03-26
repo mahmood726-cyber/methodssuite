@@ -246,7 +246,7 @@ Quintana DS. A guide for calculating study-level statistical power for meta-anal
 
 Rethlefsen ML, Kirtley S, Waffenschmidt S, et al. PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews. Systematic Reviews. 2021;10:39. doi:10.1186/s13643-020-01542-z
 
-Rover C, Friede T. Discrete approximation of a mixture distribution via restricted divergence. Journal of Computational and Graphical Statistics. 2017;26(1):217-222. doi:10.1080/10618600.2016.1276839
+Rover C, Friede T. bayesmeta -- an R package for Bayesian random-effects meta-analysis. Journal of Statistical Software. 2017;93(6):1-51. doi:10.18637/jss.v093.i06
 
 Rucker G, Carpenter JR, Schwarzer G. Small-study effects and limit meta-analysis. Research Synthesis Methods. 2011;2(4):241-250.
 
