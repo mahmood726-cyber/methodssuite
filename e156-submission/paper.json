@@ -1,0 +1,96 @@
+{
+  "title": "Methods Suite: Eight Interoperable Browser-Based Meta-Analysis Tools with MAIF",
+  "slug": "methods-suite",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-26",
+  "body": "Can eight interoperable browser-based meta-analysis tools connected by a common JSON interchange format deliver complete evidence synthesis without server dependency? The Suite comprises PRISMA Checker, RoB Assessor, MA Power, Pooling Suite, PubBias Suite, Meta-Regression, Bayesian MA, and Component NMA, each validated with 25 Selenium tests and cross-checked against R packages including metafor, bayesmeta, and netmeta. The Meta-Analysis Interchange Format requires study identifiers with effect estimates and standard errors, with each tool additively enriching the dataset by appending domain-specific results to shared JSON. All 200 tests pass with median OR deviation from R below 0.001 and 95% CI coverage matching nominal rates across pairs. Prior sensitivity in Bayesian MA and permutation testing in Meta-Regression produce results within 2 percent of R benchmarks. This suite demonstrates modular browser tools with standardized interchange can replace fragmented desktop workflows for meta-analysis. The limitation is that MAIF currently supports only univariate effects and cannot represent multivariate or network data without extension.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Can eight interoperable browser-based meta-analysis tools connected by a common JSON interchange format deliver complete evidence synthesis without server dependency?"
+    },
+    {
+      "role": "Dataset",
+      "text": "The Suite comprises PRISMA Checker, RoB Assessor, MA Power, Pooling Suite, PubBias Suite, Meta-Regression, Bayesian MA, and Component NMA, each validated with 25 Selenium tests and cross-checked against R packages including metafor, bayesmeta, and netmeta."
+    },
+    {
+      "role": "Method",
+      "text": "The Meta-Analysis Interchange Format requires study identifiers with effect estimates and standard errors, with each tool additively enriching the dataset by appending domain-specific results to shared JSON."
+    },
+    {
+      "role": "Primary result",
+      "text": "All 200 tests pass with median OR deviation from R below 0.001 and 95% CI coverage matching nominal rates across pairs."
+    },
+    {
+      "role": "Robustness",
+      "text": "Prior sensitivity in Bayesian MA and permutation testing in Meta-Regression produce results within 2 percent of R benchmarks."
+    },
+    {
+      "role": "Interpretation",
+      "text": "This suite demonstrates modular browser tools with standardized interchange can replace fragmented desktop workflows for meta-analysis."
+    },
+    {
+      "role": "Boundary",
+      "text": "The limitation is that MAIF currently supports only univariate effects and cannot represent multivariate or network data without extension."
+    }
+  ],
+  "notes": {
+    "app": "Methods Suite v1.0",
+    "data": "8 tools, 200 Selenium tests, R-validated",
+    "code": "https://github.com/mahmood726-cyber/methodssuite",
+    "doi": "",
+    "version": "1.0",
+    "date": "2026-03-26",
+    "validation": "DRAFT"
+  },
+  "type": "methods",
+  "primary_estimand": "Cross-tool MAIF round-trip fidelity",
+  "validation": {
+    "status": "pass",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a confidence interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": true,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
