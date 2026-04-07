@@ -1,6 +1,6 @@
 Mahmood Ahmad
 Tahir Heart Institute
-author@example.com
+mahmood.ahmad2@nhs.net
 
 Methods Suite: Eight Interoperable Browser-Based Meta-Analysis Tools with MAIF
 
